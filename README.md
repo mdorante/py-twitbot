@@ -1,6 +1,6 @@
 # twitbot_py
 
-Hi! This is a Twitter bot that I'm coding in order for it to help me with my Twitter account.
+Hi! This is a Twitter bot that I'm coding in order for it to help me with my [Twitter account](https://twitter.com/starcoder11).
 
 The bot consists of two Docker containers, one for each function that it performs (`like_and_follow` and `follow_back`).
 
