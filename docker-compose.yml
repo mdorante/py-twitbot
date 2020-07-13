@@ -1,0 +1,22 @@
+version: "3"
+
+services:
+  follow_back:
+    build:
+      context: .
+      dockerfile: ./dockerfiles/Dockerfile.follow_back
+    env_file: .env
+    volumes:
+      - ./log/:/app/log/
+    dns:
+      - 1.1.1.1
+
+  like_and_follow:
+    build:
+      context: .
+      dockerfile: ./dockerfiles/Dockerfile.like_and_follow
+    env_file: .env
+    volumes:
+      - ./log/:/app/log/
+    dns:
+      - 1.1.1.1
