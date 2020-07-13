@@ -10,6 +10,6 @@ RUN pip install -r requirements.txt
 COPY functions/* ./
 
 LABEL maintainer="Manuel Dorante <mdorante10@gmail.com>" \
-    version="1.0"
+    version="1.0.0"
 
 CMD ["python", "like_and_follow.py"]
